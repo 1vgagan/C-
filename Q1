@@ -1,0 +1,19 @@
+//Salary calculate 
+
+#include<iostream>
+using namespace std;
+main()
+{
+	int bs;
+	float a1,a2,gs;
+	
+    cout<< "Enter Ramesh's basic salary : " ;
+	cin>> bs ;
+	a1=bs*0.4;
+	a2=bs*0.2;
+	gs=bs-a1-a2;
+	cout<<"Gross Salary of Ramesh is " << gs  ;
+
+return 0;	
+	
+}
