@@ -1,0 +1,23 @@
+//distance in Meters,feet,inches,centimetre ?
+
+#include <iostream>
+using namespace std;
+main()
+{
+	float dkm,dm,df,di,dc;
+	
+	cout<<"Enter distance between two cities : ";
+	cin>>dkm ;
+	dm= dkm*1000;
+	df= dkm*3280.8399;
+	di= dkm*39370.078;
+	dc= dkm*100000;
+	
+	cout<< " _______________________________________ ";
+	cout<< "\nDistance in Meters = "<<dm ;
+	cout<< "\nFeet = "<<df;
+	cout<< "\nCentimeters = "<< dc;
+	cout<< "\nInches = "<<di ;
+return 0; 
+	
+}
