@@ -1,0 +1,29 @@
+Calculate area & perimeter of the rectangle and area of circumference of the circle ?
+
+#include <iostream>
+using namespace std ;
+main()
+{
+	float rl,rb,ra,rp,cr,ca,cc,pi= 3.14;
+	
+	cout<<"Enter length of rectangle " ;
+	cin>> rl ;
+	
+	cout << "Enter breadth of rectangle " ;
+	cin>> rb ; 
+	
+	cout << "Enter Radius of circle " ;
+	cin>> cr ;
+	
+	ra=rl*rb ;
+	rp=2*(rl+rb);
+	ca=pi*cr*cr;
+	cc=2*pi*cr;
+	
+	cout<< "\nArea of Rectangle = "<<ra;
+	cout<< "\nPerimeter of Rectangle = "<<rp;
+	cout<< "\nArea of Cirlce = "<<ca;
+	cout<< "\nCircumference of Circle = "<<cc;
+
+return 0;		
+}
